@@ -159,7 +159,7 @@
                        <asp:Label Text="Phone Number" CssClass="labelStyles" runat="server">    </asp:Label>
                           <div class="iconposition" style="position:relative">
                           <asp:Image  runat="server" ImageUrl="~/images/icons/phone.svg" class="imgclass" />
-                       <asp:TextBox runat="server" ID="txtPhone" TextMode="Phone" PlaceHolder="+92 300 1234567" CssClass="textboxstyles"></asp:TextBox>
+                       <asp:TextBox runat="server" ID="txtPhone" TextMode="Number" PlaceHolder="+92 300 1234567" CssClass="textboxstyles"></asp:TextBox>
                           </div>
                    </div>
 

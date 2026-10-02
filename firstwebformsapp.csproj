@@ -75,6 +75,7 @@
     <Content Include="images\icons\password.svg" />
     <Content Include="images\icons\phone.svg" />
     <Content Include="images\icons\user.svg" />
+    <Content Include="molviform.aspx" />
     <Content Include="pass_data1.aspx" />
     <Content Include="receive_data1.aspx" />
     <Content Include="registration_form.aspx" />
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="Event_handling.aspx.designer.cs">
       <DependentUpon>Event_handling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="molviform.aspx.cs">
+      <DependentUpon>molviform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="molviform.aspx.designer.cs">
+      <DependentUpon>molviform.aspx</DependentUpon>
     </Compile>
     <Compile Include="pass_data1.aspx.cs">
       <DependentUpon>pass_data1.aspx</DependentUpon>
